@@ -4,9 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+    <title>Javascript Quiz</title>
 </head>
 <body>
+    <div class=header>
+            <div class=Hcontainer>
+                
+                <h1 id="HScoresTBL">View Highscores</h1>
+                
+                <h2 id="timer"><span id=counter>90</span> seconds</h2>
+            
+            </div>
+            
+
+    </div>
+
+    <div class=bodycontent>
+                  
+         <div class=Startcontainer>
+            <div id=StartSection>
+                <h1 id=quiz-header>Coding Quiz Challenge</h1>
+                <p id=quiz-description>Try to answer the following code related questions within the time limit. Keep in mind that the incorrect answer will penalize your score time by ten seconds!</p>
+                <button class=btn id=startBtn>Start Quiz</button>
+            </div>
+        </div>
+
+
+
+         <div class=Qcontainer>
+            <div id=questionSection>
+                <h2 id=question>Question: Commonly used data types DO NOT include:</h2>
+                <button class=btn id=btnA>answerA</button>
+                <button class=btn id=btnB>answerB</button>
+                <button class=btn id=btnC>answerC</button>
+                <button class=btn id=btnD>answerD</button>
+                <h6 id=answer>answer</h6>
+            </div>
+        </div>
+
+
+        <div class=AllDonecontainer>
+            <div id=AllDoneSection>
+                <h2 id=AllDone>All done!</h2>
+                <h2>Your score is  <span id=score>90</span> </h2>
+                <form action=""> 
+                        <label for="initials">Enter initials: </label>
+                        <input type="textbox">
+                        <input type="submit" value="Submit">
+
+                </form>
+               
+               
+            </div>
+        </div>
+
+        <div class=Highscorescontainer>
+            <div id=HighScoresSection>
+                <h1 id=HighScoresheader>Highscores</h1>
+                <h2> list</h2>
+                <button class=btn id=goBackBtn>Go Back</button>
+                <button class=btn id=ClearHScoresBtn>Clear Highscores</button>
+
+                
+               
+               
+            </div>
+        </div>
+
+
+
+
+
     
+    </div>
+
+
 </body>
 </html>
