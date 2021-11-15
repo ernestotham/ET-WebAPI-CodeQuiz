@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class=header>
-            <div class=Hcontainer>
+            <div class=container id=Hcontainer>
                 
                 <h1 id="HScoresTBL">View Highscores</h1>
                 
@@ -20,9 +20,12 @@
 
     </div>
 
+    
+    
+    
     <div class=bodycontent>
                   
-         <div class=Startcontainer>
+        <div class=container id=Startcontiner data-id="0" data-state="visible">
             <div id=StartSection>
                 <h1 id=quiz-header>Coding Quiz Challenge</h1>
                 <p id=quiz-description>Try to answer the following code related questions within the time limit. Keep in mind that the incorrect answer will penalize your score time by ten seconds!</p>
@@ -32,7 +35,7 @@
 
 
 
-         <div class=Qcontainer>
+         <div class=container id=Qcontainer data-id="1" data-state="hidden">
             <div id=questionSection>
                 <h2 id=question>Question: Commonly used data types DO NOT include:</h2>
                 <button class=btn id=btnA>answerA</button>
@@ -44,7 +47,7 @@
         </div>
 
 
-        <div class=AllDonecontainer>
+        <div class=container id=AllDonecontainer data-id="2" data-state="hidden">
             <div id=AllDoneSection>
                 <h2 id=AllDone>All done!</h2>
                 <h2>Your score is  <span id=score>90</span> </h2>
@@ -59,26 +62,11 @@
             </div>
         </div>
 
-        <div class=Highscorescontainer>
-            <div id=HighScoresSection>
-                <h1 id=HighScoresheader>Highscores</h1>
-                <h2> list</h2>
-                <button class=btn id=goBackBtn>Go Back</button>
-                <button class=btn id=ClearHScoresBtn>Clear Highscores</button>
-
-                
-               
-               
-            </div>
-        </div>
-
-
-
-
-
-    
+           
     </div>
 
+    <script src="./Assets/js/helper.js"></script>
+    <script src="./Assets/js/logic.js"></script>
 
 </body>
 </html>
