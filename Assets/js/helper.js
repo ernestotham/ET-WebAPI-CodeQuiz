@@ -20,15 +20,15 @@ function validateQuestion(Qnum, respond){
     if(answers[Qnum] === respond){
         return ans
     }
-
-
+    else return "Incorrect"
+    
     return ans
 }
 
 
 function startNextQuestion(){
 
-    if(timer > 0 && Qnumber < 4){
+    if(timer > 0 && Qnumber < Questions.length){
         Qtag.textContent = Questions[Qnumber];
         
         questionAns = 0;
@@ -45,6 +45,14 @@ function startNextQuestion(){
 
 
     }
+
+    else{
+
+        QuestionContainer.style.display = 'none';
+        AllDonecontainer.style.display = 'block';
+     
+
+    }
     
-    Qnumber++;
+   
 }

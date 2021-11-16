@@ -51,6 +51,7 @@ var Buttons = document.addEventListener("click", function(event){
     console.log(event)
     console.log(targetBTN)
     console.log(event.target.id)
+    console.log(event.target.className)
 
     if(event.target.id === "startBtn"){
         startQuiz();
@@ -58,10 +59,12 @@ var Buttons = document.addEventListener("click", function(event){
 
     }
 
-    if(event.target.Classname === "Qbtn"){
+    if(event.target.className === "Qbtn"){
+        console.log(Qnumber +' '+ event.target.outerText)
         var answer4CQ = validateQuestion(Qnumber, event.target.outerText)
+        console.log(answer4CQ)
         document.getElementById("answer").textContent = answer4CQ
-        
+        Qnumber++;
         startNextQuestion();
 
     }
