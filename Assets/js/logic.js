@@ -3,6 +3,8 @@ var container = document.querySelector(".bodycontent");
 var StartContainer = document.querySelector("#Startcontiner");
 var QuestionContainer = document.querySelector("#Qcontainer");
 var AllDoneContainer = document.querySelector("#AllDonecontainer");
+var Trackanswer = ""
+var isLastQuestion = false 
 
 var Questions = ["Inside which HTML element do we put the JavaScript?",
     "What is the correct JavaScript syntax to change the content of the HTML element below?",
@@ -71,11 +73,16 @@ var Buttons = document.addEventListener("click", function(event){
         console.log(answer4CQ)
         document.getElementById("answer").textContent = answer4CQ
         Qnumber++;
+        Trackanswer =  answer4CQ;
         startNextQuestion();
 
     }
     
+    if(event.target.id === "submit"){
+        setScore()
 
+
+    }
 
   
 
