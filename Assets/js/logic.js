@@ -10,33 +10,39 @@ var Questions = ["Inside which HTML element do we put the JavaScript?",
     "How do you create a function in JavaScript?",
     "How to write an IF statement in JavaScript?"];
 var AnswersQ1 = ["<js>","<script>","<scripting>","<javascript>"];
-var CorrectAnsQ1 = "<script>"
+// var CorrectAnsQ1 = "<script>"
 
 var AnswersQ2 = ["#demo.innerHTML = \"Hello World!\";",
         "document.getElement(\"p\").innerHTML = \"Hello World!\";",
         "document.getElementById(\"demo\").innerHTML = \"Hello World!\";",
         "document.getElementByName(\"p\").innerHTML = \"Hello World!"];
-var CorrectAnsQ2 = "document.getElementById(\"demo\").innerHTML = \"Hello World!\";";
+// var CorrectAnsQ2 = "document.getElementById(\"demo\").innerHTML = \"Hello World!\";";
 
 var AnswersQ3 = ["alert(\"Hello World\");",
         "alertBox(\"Hello World\");",
         "msg(\"Hello World\");",
         "msgBox(\"Hello World\");"];
-var CorrectAnsQ3 = "alertBox(\"Hello World\");";
+// var CorrectAnsQ3 = "alertBox(\"Hello World\");";
 
 var AnswersQ4 = ["function myFunction() {}",
         "function:myFunction {}",
         "function = myFunction {}",
         "function=>() {}"];
-var CorrectAnsQ4 = "function myFunction() {}";
+// var CorrectAnsQ4 = "function myFunction() {}";
 
 var AnswersQ5 = ["if i == 5 then",
         "if i = 5",
         "if(i == 5)",
         "if i =5 then"];
-var CorrectAnsQ5 = "if(i == 5)";
+// var CorrectAnsQ5 = "if(i == 5)";
 
 var answers = [AnswersQ1,AnswersQ2,AnswersQ3,AnswersQ4, AnswersQ5]
+var correctAns = ["<script>",
+    "document.getElementById(\"demo\").innerHTML = \"Hello World!\";",
+    "alertBox(\"Hello World\");",
+    "function myFunction() {}",
+    "if(i == 5)"
+    ]
 
 
 

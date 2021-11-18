@@ -16,13 +16,15 @@ function startQuiz(){
 
 
 function validateQuestion(Qnum, respond){
-    var ans = "Correct"
-    if(answers[Qnum] === respond){
-        return ans
-    }
-    else return "Incorrect"
     
-    return ans
+    if(correctAns[Qnum] === respond){
+        return "Correct"
+    }
+    else { 
+
+        return "Incorrect"}
+    
+    
 }
 
 
