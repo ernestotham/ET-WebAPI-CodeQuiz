@@ -7,6 +7,7 @@ var scoreEl = document.getElementById("score");
 var timerCountEl = document.getElementById("counter");
 var timerCount = 90
 
+
 function startQuiz() {
     StartContainer.style.display = 'none';
     QuestionContainer.style.display = 'block';
@@ -21,14 +22,7 @@ function startQuiz() {
 function validateQuestion(Qnum, respond) {
 
     return (correctAns[Qnum] == respond) ? "Correct" : "Incorrect"
-    // if(correctAns[Qnum] === respond){
-    //     return "Correct"
-    // }
-    // else { 
-
-    //     return "Incorrect"}
-
-
+    
 }
 
 
@@ -101,19 +95,18 @@ function startTimer() {
 function setScore() {
         TotalTbl = []
     var currentScores = getScores();
-    console.log("line 104")
-    console.log(currentScores)
-    console.log("line 106")
+     console.log(currentScores)
+    
         var intialsTB = document.getElementById("textbox").value
-        console.log("line 108")
+       
         console.log(intialsTB)
-        console.log("line 110")
+        
     var NewScore = new Object();
         NewScore.initials = intialsTB;
         NewScore.score = timerCount;
-        console.log("line 114")
+        
         console.log(NewScore)
-        console.log("line 116")
+       
     // debugger
     //check local storage results variable is empty : add
     if (currentScores.length === 0) {
@@ -140,4 +133,7 @@ function getScores() {
     var scoreResults = localStorage.getItem('results') || []
     return scoreResults
 }
+
+
+
 

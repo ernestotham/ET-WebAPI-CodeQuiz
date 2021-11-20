@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,22 +8,31 @@
     <link rel="stylesheet" href="./Assets/css/style.css" />
     <title>Highscores</title>
 </head>
+
 <body>
-    
+
     <div class=Highscorescontainer>
         <div id=HighScoresSection>
-            <h1 id=HighScoresheader>Highscores</h1>
-            <h2> list</h2>
-            <button class=btn id=goBackBtn>Go Back</button>
-            <button class=btn id=ClearHScoresBtn>Clear Highscores</button>
+            <div id=h1Highscores>
+                <h1 id=HighScoresheader>Highscores</h1>
+            </div>
+            <div id="OlHighscores">
+                <ol id=orderlist></ol>
+            </div>
 
-            
-           
-           
+
+            <div id=BtnHishscores>
+                <button class=btn id=goBackBtn>Go Back</button>
+                <button class=btn id=ClearHScoresBtn>Clear Highscores</button>
+
+            </div>
+
         </div>
     </div>
 
 
-
+    <script src="./Assets/js/helper.js"></script>
+    <script src="./Assets/js/highscore.js"></script>
 </body>
+
 </html>

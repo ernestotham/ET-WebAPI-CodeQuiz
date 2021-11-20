@@ -81,7 +81,8 @@ var Buttons = document.addEventListener("click", function(event){
     if(event.target.id === "submit"){
         event.preventDefault();
         setScore()
-
+        window.location.replace("../highscores.html");
+        
 
     }
 
