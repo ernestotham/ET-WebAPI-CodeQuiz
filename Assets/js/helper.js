@@ -115,7 +115,7 @@ function setScore() {
     console.log(intialsTB)
 
     var NewScore = new Object();
-    NewScore.initials = intialsTB;
+    NewScore.initials = intialsTB.toUpperCase();
     NewScore.score = timerCount;
 
     console.log(NewScore)
