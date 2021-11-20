@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,25 @@
     <link rel="stylesheet" href="./Assets/css/style.css" />
     <title>Javascript Quiz</title>
 </head>
+
 <body>
     <div class=header>
-            <div class=container id=Hcontainer>
-                
-                <h1 id="HScoresTBL">View Highscores</h1>
-                
-                <h2 id="timer"><span id=counter>90</span> seconds</h2>
-            
-            </div>
-            
+        <div class=container id=Hcontainer>
+
+            <h1 id="HScoresTBL"><a href="./highscores.html">Highscores</a></h1>
+
+            <h2 id="timer"><span id=counter>90</span> seconds</h2>
+
+        </div>
+
 
     </div>
 
-    
-    
-    
+
+
+
     <div class=bodycontent>
-                  
+
         <div class=container id=Startcontainer data-id="0" data-state="visible">
             <div id=StartSection>
                 <h1 id=quiz-header>Coding Quiz Challenge</h1>
@@ -35,7 +37,7 @@
 
 
 
-         <div class=container id=Qcontainer data-id="1" data-state="hidden">
+        <div class=container id=Qcontainer data-id="1" data-state="hidden">
             <div id=questionSection>
                 <h2 id=question>Question: Commonly used data types DO NOT include:</h2>
                 <button class=Qbtn id=btnA></button>
@@ -50,25 +52,26 @@
         <div class=container id=AllDonecontainer data-id="2" data-state="hidden">
             <div id=AllDoneSection>
                 <div id=allDoneCenter>
-                <h2 id=AllDone>All done!</h2>
-                <h2>Your score is  <span id=score></span> </h2>
-                <form action="" id=from> 
+                    <h2 id=AllDone>All done!</h2>
+                    <h2>Your score is <span id=score></span> </h2>
+                    <form action="" id=from>
                         <label for="initials">Enter initials: </label>
                         <input id="textbox" type="textbox">
                         <input class=btn id=submit type="submit" value="Submit">
 
-                </form>
+                    </form>
                 </div>
-               
-               
+
+
             </div>
         </div>
 
-           
+
     </div>
 
     <script src="./Assets/js/helper.js"></script>
     <script src="./Assets/js/logic.js"></script>
 
 </body>
+
 </html>

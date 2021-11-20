@@ -1,11 +1,10 @@
-
 var highscoresGoBackBTN = document.getElementById("goBackBtn");
 var highscoresClearScoresBTN = document.getElementById("ClearHScoresBtn");
 var highscoresOLEl = document.getElementById("orderlist");
 
 highscoresOLEl.style = "list-style-type:none"
 
-highscoresClearScoresBTN.addEventListener("click", function () {
+highscoresClearScoresBTN.addEventListener("click", function() {
 
 
     CleanLocalStorage()
@@ -13,7 +12,7 @@ highscoresClearScoresBTN.addEventListener("click", function () {
 })
 
 
-highscoresGoBackBTN.addEventListener("click", function () {
+highscoresGoBackBTN.addEventListener("click", function() {
 
     window.location.replace("../index.html");
 
@@ -23,7 +22,7 @@ highscoresGoBackBTN.addEventListener("click", function () {
 
 function CleanLocalStorage() {
     localStorage.setItem("results", "")
-
+    window.location.replace("../highscores.html");
 }
 
 function BuildResultsTable() {

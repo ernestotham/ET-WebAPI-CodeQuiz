@@ -1,0 +1,27 @@
+.Highscorescontainer {}
+
+#HighScoresSection,
+.HighScoresSection {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-right: 25%;
+    margin-left: 25%;
+    margin: 0px, 0px
+}
+
+#orderlist {
+    /* list-style-position: inside; */
+    margin: 0px, 0px;
+    padding-inline-start: 0px;
+}
+
+.btn {
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 0px;
+    display: inline-flex;
+    border-radius: 10px;
+}
