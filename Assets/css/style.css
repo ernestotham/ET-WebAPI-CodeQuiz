@@ -65,6 +65,7 @@ display:block;
     margin-top: 280px;
     margin-bottom: 20px;
     min-height: 70px;
+    justify-content: center;
 }
 
 .Highscorescontainer{
@@ -179,8 +180,8 @@ display:block;
 
 #StartSection, #questionSection, #AllDoneSection{
     position: fixed;
-    left: 20%;
-    right: 20%;
+    left: 25%;
+    right: 25%;
 
 }
 

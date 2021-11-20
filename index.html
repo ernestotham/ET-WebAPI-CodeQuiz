@@ -25,7 +25,7 @@
     
     <div class=bodycontent>
                   
-        <div class=container id=Startcontiner data-id="0" data-state="visible">
+        <div class=container id=Startcontainer data-id="0" data-state="visible">
             <div id=StartSection>
                 <h1 id=quiz-header>Coding Quiz Challenge</h1>
                 <p id=quiz-description>Try to answer the following code related questions within the time limit. Keep in mind that the incorrect answer will penalize your score time by ten seconds!</p>
@@ -42,21 +42,23 @@
                 <button class=Qbtn id=btnB>answerB</button>
                 <button class=Qbtn id=btnC>answerC</button>
                 <button class=Qbtn id=btnD>answerD</button>
-                <h6 id=answer>answer</h6>
+                <h6 id=answer></h6>
             </div>
         </div>
 
 
         <div class=container id=AllDonecontainer data-id="2" data-state="hidden">
             <div id=AllDoneSection>
+                <div id=allDoneCenter>
                 <h2 id=AllDone>All done!</h2>
-                <h2>Your score is  <span id=score>ti</span> </h2>
-                <form action=""> 
+                <h2>Your score is  <span id=score></span> </h2>
+                <form action="" id=from> 
                         <label for="initials">Enter initials: </label>
                         <input id="textbox" type="textbox">
                         <input class=btn id=submit type="submit" value="Submit">
 
                 </form>
+                </div>
                
                
             </div>

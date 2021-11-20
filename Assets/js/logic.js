@@ -1,6 +1,6 @@
 //main logic script
 var container = document.querySelector(".bodycontent");
-var StartContainer = document.querySelector("#Startcontiner");
+var StartContainer = document.querySelector("#Startcontainer");
 var QuestionContainer = document.querySelector("#Qcontainer");
 var AllDoneContainer = document.querySelector("#AllDonecontainer");
 var Trackanswer = ""
@@ -79,6 +79,7 @@ var Buttons = document.addEventListener("click", function(event){
     }
     
     if(event.target.id === "submit"){
+        event.preventDefault();
         setScore()
 
 
