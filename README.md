@@ -7,5 +7,23 @@ Criteria:
     if the answer is incorrect the time is reduced by 10s
     if time reaches 0 or all questions are answer then the app will record grade
 
+**Here is the link: https://ernestotham.github.io/ET-WebAPI-CodeQuiz/
 
-    > **Here is the link: https://ernestotham.github.io/ET-WebAPI-CodeQuiz/
+
+
+## Mock-Up
+
+The following image shows the web application's appearance and functionality:
+
+![CodeQuiz](./Assets/images/CodeQuiz.jpg)
+
+
+
+![HighScores](./Assets/images/highscores.jpg)
+
+
+
+
+# ET-WebAPI-CodeQuiz
+
+
