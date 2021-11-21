@@ -14,7 +14,7 @@ highscoresClearScoresBTN.addEventListener("click", function() {
 
 highscoresGoBackBTN.addEventListener("click", function() {
 
-    window.location.replace("../index.html");
+    window.location.replace("https://ernestotham.github.io/ET-WebAPI-CodeQuiz/index.html");
 
 
 })
@@ -22,7 +22,7 @@ highscoresGoBackBTN.addEventListener("click", function() {
 
 function CleanLocalStorage() {
     localStorage.setItem("results", "")
-    window.location.replace("../highscores.html");
+    window.location.replace("https://ernestotham.github.io/ET-WebAPI-CodeQuiz/highscores.html");
 }
 
 function BuildResultsTable() {
