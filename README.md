@@ -8,4 +8,4 @@ Criteria:
     if time reaches 0 or all questions are answer then the app will record grade
 
 
-    Live url to quiz: 
+    Live url to quiz: https://ernestotham.github.io/ET-WebAPI-CodeQuiz/
