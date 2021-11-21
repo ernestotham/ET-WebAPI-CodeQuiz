@@ -5,14 +5,15 @@
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    margin-right: 25%;
-    margin-left: 25%;
-    margin: 0px, 0px
+    /* margin-right: 25%;
+    margin-left: 25%; */
+    margin: 0px auto;
+    width: 600px;
 }
 
 #orderlist {
     /* list-style-position: inside; */
-    margin: 0px, 0px;
+    margin: 0px auto;
     padding-inline-start: 0px;
 }
 
