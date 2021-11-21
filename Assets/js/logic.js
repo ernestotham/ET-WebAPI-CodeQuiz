@@ -88,7 +88,7 @@ var Buttons = document.addEventListener("click", function(event) {
     if (event.target.id === "submit") {
         event.preventDefault();
         setScore()
-        window.location.replace("./highscores.html");
+        window.location.replace("https://ernestotham.github.io/ET-WebAPI-CodeQuiz/highscores.html");
 
 
     }
