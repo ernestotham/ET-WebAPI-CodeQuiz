@@ -15,12 +15,13 @@ Criteria:
 
 The following image shows the web application's appearance and functionality:
 
-![CodeQuiz](./Assets/images/CodeQuiz.jpg)
+
+
+![CodeQuiz](https://user-images.githubusercontent.com/23125242/146103792-26af75a1-06b3-4f7f-a715-f2b66d6bd1e3.jpg)
 
 
 
-![HighScores](./Assets/images/highscores.jpg)
-
+![highscores (1)](https://user-images.githubusercontent.com/23125242/146103859-8113f1e2-d581-4234-8c03-9c9e4f3d7f9b.jpg)
 
 
 
